@@ -31,7 +31,6 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import PendingActions from '@ckeditor/ckeditor5-core/src/pendingactions';
-import PreElement from 'ckeditor5-code-block/src/pre';
 
 import '../theme/theme.css';
 
@@ -63,8 +62,7 @@ BalloonEditor.builtinPlugins = [
 	TableToolbar,
 	Autosave,
 	Mention,
-	PendingActions,
-	PreElement
+	PendingActions
 ];
 
 // Editor configuration.
@@ -77,7 +75,6 @@ BalloonEditor.defaultConfig = {
 		'imageUpload',
 		'blockQuote',
 		'insertTable',
-		'pre',
 		// 'mediaEmbed',
 		// '|',
 		// 'undo',
