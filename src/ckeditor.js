@@ -77,7 +77,7 @@ BalloonEditor.defaultConfig = {
 		'imageUpload',
 		'blockQuote',
 		'insertTable',
-		'codeBlock',
+		'codeBlock'
 		// 'mediaEmbed',
 		// '|',
 		// 'undo',
@@ -87,6 +87,9 @@ BalloonEditor.defaultConfig = {
 		items: [
 			'bold',
 			'italic',
+			'underline',
+			'strikethrough',
+			'code',
 			'link'
 		]
 	},
@@ -119,9 +122,9 @@ BalloonEditor.defaultConfig = {
 			{ language: 'php', label: 'PHP' },
 			{ language: 'python', label: 'Python' },
 			{ language: 'ruby', label: 'Ruby' },
-			{ language: 'typescript', label: 'TypeScript' },
+			{ language: 'typescript', label: 'TypeScript' }
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en',
+	language: 'en'
 };
