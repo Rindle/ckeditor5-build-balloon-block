@@ -32,6 +32,7 @@ import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
 import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 import PendingActions from '@ckeditor/ckeditor5-core/src/pendingactions';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
+import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 
 import '../theme/theme.css';
 
@@ -64,7 +65,8 @@ BalloonEditor.builtinPlugins = [
 	Autosave,
 	Mention,
 	PendingActions,
-	CodeBlock
+	CodeBlock,
+	TextTransformation
 ];
 
 // Editor configuration.
