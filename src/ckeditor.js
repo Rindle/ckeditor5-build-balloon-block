@@ -12,6 +12,9 @@ import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import BlockToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/block/blocktoolbar';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import Underline from '@ckeditor/ckeditor5-basic-styles/src/Underline';
+import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/Strikethrough';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/Code';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
 import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
@@ -46,6 +49,9 @@ BalloonEditor.builtinPlugins = [
 	BlockToolbar,
 	Bold,
 	Italic,
+	Underline,
+	Strikethrough,
+	Code,
 	BlockQuote,
 	CKFinder,
 	EasyImage,
